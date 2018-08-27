@@ -1,0 +1,12 @@
+@import "styles/_base";
+
+.appWrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 16px;
+    margin: 0 auto;
+    min-height: 100%;
+    flex-direction: column;
+}

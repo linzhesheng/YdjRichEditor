@@ -1,0 +1,11 @@
+// @function rem($px1, $px2: n, $px3: n, $px4: n) {
+//     $all: $px1 / $rem + rem;
+
+//     @each $value in $px2, $px3, $px4 {
+//         @if $value != n {
+//             $all: $all + " " + $value / $rem + rem;
+//         }
+//     }
+
+//     @return $all;
+// }    

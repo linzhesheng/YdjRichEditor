@@ -1,0 +1,3 @@
+**/css/sprites/**
+**/dist/**/*.css
+**/*.{ts, tsx}

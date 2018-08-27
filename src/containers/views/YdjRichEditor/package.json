@@ -1,0 +1,16 @@
+{
+  "name": "ydjricheditor",
+  "version": "1.0.2",
+  "description": "a richEditor base on draft.js",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ydj",
+    "richeditor",
+    "draft.js"
+  ],
+  "author": "ydj",
+  "license": "MIT"
+}

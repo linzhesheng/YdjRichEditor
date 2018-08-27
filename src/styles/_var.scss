@@ -1,0 +1,102 @@
+// global variables
+// -------- Colors -----------
+$primary-color            : #1890ff;
+$info-color               : #1890ff;
+$success-color            : #52c41a;
+$processing-color         : $primary-color;
+$error-color              : #f5222d;
+$highlight-color          : #f5222d;
+$warning-color            : #faad14;
+$normal-color             : #d9d9d9;
+$black-color              : #000;
+$body-color               : rgba(#000, 0.65);
+$heading-color            : rgba(#000, 0.85);
+$text-color               : rgba(#000, 0.65);
+$text-color-secondary     : rgba(#000, 0.45);
+$heading-color-dark       : rgba(#fff, 1);
+$text-color-dark          : rgba(#fff, 0.85);
+$text-color-secondary-dark: rgba(#fff, 0.65);
+// Background color for `<body>`
+$body-background          : #F0F2F5;
+// Base background color for most components
+$component-background     : #fff;
+
+
+
+// -------- Font --------
+$font-family-no-number: "Chinese Quote", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family          : "Monospaced Number", $font-family-no-number;
+$font-weight-light    : 300 !default;
+$font-weight-normal   : 400 !default;
+$font-weight-bold     : 700 !default;
+$font-weight-base     : $font-weight-normal !default;
+$font-size-base       : 14px;
+$font-size-lg         : $font-size-base + 2px;
+$font-size-sm         : 12px;
+$code-family          : Consolas, Menlo, Courier, monospace;
+
+
+// -------- box & border --------
+$line-height-base  : 1.5;
+$border-radius-base: 4px;
+$border-radius-sm  : 2px;
+
+// -------- Function --------
+$rem: 40;
+$flexs: (
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+);
+
+
+
+
+// -------- Media queries breakpoints --------
+// Extra small screen / phone
+$screen-xs     : 480px;
+$screen-xs-min : $screen-xs;
+
+// Small screen / tablet
+$screen-sm     : 576px;
+$screen-sm-min : $screen-sm;
+
+// Medium screen / desktop
+$screen-md     : 768px;
+$screen-md-min : $screen-md;
+
+// Large screen / wide desktop
+$screen-lg     : 992px;
+$screen-lg-min : $screen-lg;
+
+// Extra large screen / full hd
+$screen-xl     : 1200px;
+$screen-xl-min : $screen-xl;
+
+// Extra extra large screen / large descktop
+$screen-xxl    : 1600px;
+$screen-xxl-min: $screen-xxl;
+
+// provide a maximum
+$screen-xs-max : ($screen-sm-min - 1px);
+$screen-sm-max : ($screen-md-min - 1px);
+$screen-md-max : ($screen-lg-min - 1px);
+$screen-lg-max : ($screen-xl-min - 1px);
+$screen-xl-max : ($screen-xxl-min - 1px);
+
+// Border color
+$border-color-base : hsv(0, 0, 85%); // base border outline a component
+$border-color-split: hsv(0, 0, 91%); // split border inside a component
+$border-width-base : 1px; // width of the border for a component
+$border-style-base : solid; // style of a components border
