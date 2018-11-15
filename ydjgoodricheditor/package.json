@@ -1,0 +1,50 @@
+{
+  "name": "ydjgoodricheditor",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.9.2",
+    "@types/react": "^16.4.12",
+    "antd": "^3.8.3",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "draft-js": "^0.10.5",
+    "draftjs-to-html": "^0.8.4",
+    "draftjs-utils": "^0.9.4",
+    "html-to-draftjs": "^1.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "immutable": "^3.8.2",
+    "install": "^0.12.1",
+    "npm": "^6.4.0",
+    "react": "^16.4.2",
+    "react-color": "^2.14.1",
+    "react-dom": "^16.4.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.22.1",
+    "ts-cli": "^1.0.4",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "typescript-cli": "^0.1.0",
+    "typings": "^2.1.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "types": ["node"],
+        "outDir": "./dist/",
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        // "sourceMap": true,
+        "baseUrl": "src",
+        "alwaysStrict": true,
+        "allowJs": true,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "lib": [
+            "es5",
+            "es2015.core",
+            "es2015.reflect",
+            "es2015.promise",
+            "es2015.generator",
+            "es2016.array.include",
+            "dom"
+        ]
+    },
+    "include": ["src/"],
+    "exclude": ["**/node_modules/*"],
+
+    "awesomeTypescriptLoaderOptions": {
+        "reportFiles": ["src/**/*.{ts,tsx}"]
+    }
+}
